@@ -33,6 +33,6 @@ void i2c_init(unsigned char sla_add);
 void i2c_read(unsigned char AddRes,unsigned char numbyte,unsigned char *poirev);
 
 
-void i2c_wirte(unsigned char AddRes,unsigned char numbyte, unsigned char *poisend);
+void i2c_write(unsigned char AddRes,unsigned char numbyte, unsigned char *poisend);
 
 #endif
